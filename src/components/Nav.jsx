@@ -45,6 +45,9 @@ export default function Nav() {
           <a className="icon-link" href="https://github.com/tuvl-io/tuvl" rel="noopener" target="_blank" aria-label="tuvl on GitHub">
             <GitHubMark size={20} />
           </a>
+          <a className="btn btn-ghost btn-sm nav-home" href="https://tuvl.io/?utm_source=tuvl.org&utm_medium=nav&utm_campaign=maintained-by" rel="noopener">
+            tuvl.io <span aria-hidden="true">↗</span>
+          </a>
           <a className="btn btn-solid btn-sm" href="https://try.tuvl.online" rel="noopener" target="_blank"
             onClick={() => track('try_live', { location: 'nav' })}>Try it live</a>
         </div>
