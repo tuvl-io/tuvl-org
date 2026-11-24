@@ -5,6 +5,8 @@ app built with Vite and deployed to GitHub Pages at [tuvl.org](https://tuvl.org)
 [tuvl.org/docs](https://tuvl.org/docs). The documentation itself lives in [tuvl-io/docs](https://github.com/tuvl-io/docs) and is
 published at [tuvl.dev](https://tuvl.dev).
 
+Maintained by [tuvl.io](https://tuvl.io).
+
 ## Run it locally
 
 You need Node.js 22 and [pnpm](https://pnpm.io/) 10.
