@@ -21,8 +21,18 @@ export default function Footer() {
           <a href="https://nest.tuvl.io" rel="noopener" target="_blank">Nest</a>
           <a href="https://github.com/tuvl-io/tuvl" rel="noopener" target="_blank">GitHub</a>
           <a href="https://discord.tuvl.io" rel="noopener" target="_blank">Discord</a>
-          <a href="mailto:developer@tuvl.io">Contact</a>
         </nav>
+        <div className="footer-contact">
+          <div className="footer-contact-title">Contact</div>
+          <div className="footer-contact-row">
+            <a href="mailto:developer@tuvl.io">developer@tuvl.io</a>
+            <small>Questions, feedback, partnerships</small>
+          </div>
+          <div className="footer-contact-row">
+            <a href="mailto:security@tuvl.io">security@tuvl.io</a>
+            <small>Security reports</small>
+          </div>
+        </div>
       </div>
     </footer>
   );
