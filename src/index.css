@@ -115,6 +115,7 @@ img { max-width: 100%; display: block; }
 }
 .icon-link:hover { background: var(--surface-2); }
 @media (max-width: 860px) { .nav-links { display: none; } }
+@media (max-width: 520px) { .nav-home { display: none; } }
 
 .theme-toggle {
   position: fixed; top: 12px; right: max(var(--gutter), 12px); z-index: 60;
@@ -290,6 +291,12 @@ img { max-width: 100%; display: block; }
 .footer-brand b { font: 700 18px/1 var(--sans); letter-spacing: -0.03em; color: var(--text); }
 .footer-maint a { color: var(--text); font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--border); }
 .footer-maint a:hover { border-bottom-color: var(--text); }
+.footer-contact { flex-basis: 100%; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 28px; padding-top: 16px; border-top: 1px solid var(--border); }
+.footer-contact-title { font-weight: 600; color: var(--text); }
+.footer-contact-row { display: flex; flex-direction: column; gap: 2px; }
+.footer-contact-row a { color: var(--text-2); text-decoration: none; }
+.footer-contact-row a:hover { color: var(--text); text-decoration: underline; }
+.footer-contact-row small { font-size: 12px; color: var(--muted); }
 .footer-links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-left: auto; }
 .footer-links a { color: var(--muted); text-decoration: none; }
 .footer-links a:hover { color: var(--text); }
