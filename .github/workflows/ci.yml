@@ -1,6 +1,6 @@
 name: CI
 
-# Work happens on develop; main takes a pull request from develop only, and a push to main deploys tuvl.io
+# Work happens on develop; main takes a pull request from develop only, and a push to main deploys tuvl.org
 # (deploy-pages.yml). A pull request builds the site, so a broken build fails here and not after the merge.
 on:
   pull_request:
