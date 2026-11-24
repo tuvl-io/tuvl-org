@@ -10,6 +10,10 @@ export default function Footer() {
           <b>tuvl</b>
         </a>
         <span>Intelligent Workflows. Deterministic Execution. Apache 2.0 licensed.</span>
+        <span className="footer-maint">
+          Maintained by{' '}
+          <a href="https://tuvl.io/?utm_source=tuvl.org&utm_medium=footer&utm_campaign=maintained-by" rel="noopener">tuvl.io</a>
+        </span>
         <nav className="footer-links" aria-label="Footer">
           <a href={docs('/getting-started/quickstart')}>Quickstart</a>
           <a href={docs('/why-tuvl/')}>Why tuvl</a>
